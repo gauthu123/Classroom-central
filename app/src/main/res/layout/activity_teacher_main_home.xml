@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9E4CAC"
+    tools:context=".TeacherMainHome">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="414dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/white_curve" />
+
+    <Button
+        android:id="@+id/add_student"
+        android:layout_width="164dp"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="469dp"
+        android:background="@drawable/shape_button01"
+        android:text="ADD STUDENT" />
+
+    <Button
+        android:id="@+id/Student_information"
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="478dp"
+        android:background="@drawable/shape_button01"
+        android:text="VIEW STUDENT INFORMATION" />
+
+    <Button
+        android:id="@+id/take_attendance"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="331dp"
+        android:background="@drawable/shape_button01"
+        android:text="TAKE ATTENDANCE" />
+
+    <Button
+        android:id="@+id/pdfupload"
+        android:layout_width="wrap_content"
+        android:layout_height="97dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="219dp"
+        android:layout_marginTop="299dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="335dp"
+        android:background="@drawable/shape_button01"
+        android:text="UPLOAD NOTES" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="659dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/viewpdf"
+        android:layout_width="wrap_content"
+        android:layout_height="112dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="422dp"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="197dp"
+        android:background="@drawable/shape_button01"
+        android:text="VIEW PDF" />
+
+    <Button
+        android:id="@+id/sendnoticebtn"
+        android:layout_width="164dp"
+        android:layout_height="107dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/shape_button01"
+        android:text="SEND NOTICE" />
+
+    <Button
+        android:id="@+id/viewnotice"
+        android:layout_width="wrap_content"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="69dp"
+        android:background="@drawable/shape_button01"
+        android:text="VIEW NOTICE" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="625dp"
+        android:fontFamily="@font/amaranth_bold"
+        android:gravity="center"
+        android:text="HELLO!"
+        android:textColor="#FAF8F8"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

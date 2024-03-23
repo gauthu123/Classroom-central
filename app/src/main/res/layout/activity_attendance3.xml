@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Activity_attendance3"
+    android:orientation="vertical">
+
+    <DatePicker
+        android:id="@+id/dp"
+        android:layout_width="match_parent"
+        android:layout_height="297dp" />
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="315dp"
+                android:gravity="center"
+                android:text="5" />
+
+            <CheckBox
+                android:id="@+id/cb1"
+                android:layout_width="132dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="88dp"
+                android:layout_marginBottom="546dp"
+                android:text="CheckBox" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="103dp"
+                    android:layout_height="45dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:gravity="center"
+                    android:text="2" />
+
+                <CheckBox
+                    android:id="@+id/cb2"
+                    android:layout_width="167dp"
+                    android:layout_height="51dp"
+                    android:layout_marginEnd="84dp"
+                    android:layout_marginBottom="401dp"
+                    android:text="CheckBox" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="110dp"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="471dp"
+                    android:gravity="center"
+                    android:text="3" />
+
+                <CheckBox
+                    android:id="@+id/cb3"
+                    android:layout_width="132dp"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="82dp"
+                    android:layout_marginBottom="315dp"
+                    android:text="CheckBox" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="102dp"
+                    android:layout_height="37dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="396dp"
+                    android:gravity="center"
+                    android:text="4" />
+                <CheckBox
+                    android:id="@+id/cb4"
+                    android:layout_width="132dp"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="79dp"
+                    android:layout_marginBottom="472dp"
+                    android:text="CheckBox" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextText"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="Name" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_marginLeft="150dp"/>
+
+        </LinearLayout>
+
+</LinearLayout>
